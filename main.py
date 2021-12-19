@@ -34,9 +34,9 @@ for i in range(100):
 print(f"1 den 100'e kadar olan sayıların toplamı {toplam} ")"""
 
 #1 den n sayısına kadar olan Tek sayıların toplamını bulmak
-n = int(input("Bir sayı giriniz: "))
+"""n = int(input("Bir sayı giriniz: "))
 toplam = 0
-"""for i in range(n):
+for i in range(n):
     if i%2 ==1:
         toplam += i
 print(f"Toplamda {toplam} kadar tek sayı vardır.")
@@ -45,4 +45,23 @@ print(f"Toplamda {toplam} kadar tek sayı vardır.")
 for i in range(1,n,2):
     toplam += i
 print(f"Toplamda {toplam} kadar tek sayı vardır.")"""
+#for dongs
+"""for x in range(6,19,2): # (ilk sayı, son sayı, atlama sayısı)
+    print(x)"""
+
+"""dizi = ["murat","gani","şahin","hakan","mert"]
+print(dizi)
+#ekleme
+dizi.append("ali")
+print(dizi)
+#silme
+del dizi[1]
+print(dizi) #yada
+dizi.remove("murat")
+print(dizi)
+
+sayilar = [1,12,9,88,6,19,97]
+sayilar.sort()
+sayilar.reverse()
+print(sayilar)"""
 
