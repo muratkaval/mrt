@@ -4,8 +4,6 @@ toplam = veri1 + veri2
 ort = toplam/2
 print(f"toplam sayı {toplam},  ortalama ise {ort} ")
 """
-import math
-
 """a = str(input("Birinci sayıyı giriniz: "))
 b = str(input("İkinci sayıyı giriniz: "))
 c = str(input("Üçüncü sayıyı giriniz: "))
